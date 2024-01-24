@@ -1,142 +1,57 @@
-//let friend = "Hanna";
+// Task 1 Start
+let a = 3;
+let b = 5;
+let c;
 
-/*
-// Function Declaration
-function greeting() {
-    // do something
-    console.log("Hello Hanna");
-}
-*/
-// function greeting() {
-//     // do something
-//     console.log(`Hello ${friend}!`);
-// }
+let output = 
+`let a = 3;
+let b = 5;
+let c;
+\--------------
+a + b = ${a + b};
+a - b = ${a - b};
+a * b = ${a * b};
+a / b = ${a / b};
+a % b = ${a % b};
+a += b = ${a += b};
+a -= b = ${a -= b};
+a *= b = ${a *= b};
+a /= b = ${a /= b};
+a %= b = ${a %= b};
+a == b = ${a == b};
+a != b = ${a != b};
+a > b = ${a > b};
+a < b = ${a < b};
+!a && !c = ${!a && !c};
+!a || !c = ${!a || !c};`;
 
-/*
-//functions may have parameters:
-function greeting(fname, lname) {
-    // do something
-    console.log(`Hello ${fname} ${lname}!`);
-}
+console.log(output);
+// Task 1 End
 
-// Function call
-greeting('Selma', 'Basic');
-*/
+// Task 2 Start
+let fname = 'Qilong';
+let lname = 'Huang';
+let email = 'yellowball102@gmail.com';
 
-// function sandwichMaker(bread, cheese) {
-//     let sandwichCreated =
-//     `
-//     ${bread}
-//     ${cheese}
-//     ${bread}
-//     `;
+let output2 = "My " + "name " + "is " + fname + " " + lname + ". " + "You " + "can " + "contact " + "me " + "at " + email + ".";
+let output3 = `My name is ${fname} ${lname}. You can contact me at ${email}.`;
+let 
+output4 = "My ";
+output4 += "name ";
+output4 += "is ";
+output4 += fname;
+output4 += " ";
+output4 += lname;
+output4 += ". ";
+output4 += "You ";
+output4 += "can ";
+output4 += "contact ";
+output4 += "me ";
+output4 += "at ";
+output4 += email;
+output4 += ".";
 
-//     //outputting sandwich
-//     return sandwichCreated;
-// }
-
-// let lunch = sandwichMaker('rye', 'gauda');
-
-// console.log(lunch);
-
-// function expression
-/*
-let name = 'Ken';
-let sandwichMaker = function (bread, cheese) {
-    let sandwichCreated =
-    `
-    ${bread}
-    ${cheese}
-    ${bread}
-    `;
-
-    //outputting sandwich
-    return sandwichCreated;
-};
-
-let lunch = sandwichMaker('rye', 'gauda');
-
-console.log(lunch);
-*/
-
-// let applepieMaker = function (ingredient1, ingredient2, ingredient3, ingredient4) {
-// let applepieCreated = `
-//     ${ingredient1},
-//     ${ingredient2},
-//     ${ingredient3},
-//     ${ingredient4}
-//     `;
-//     return applepieCreated;
-// }
-
-// let dessert = applepieMaker('apple','sugar','flour','eggs');
-// console.log(dessert);
-
-
-// Exercise
-/*
-function dataRetreaver () {
-    // pretending we know how to retreave data...
-    // data arrived:
-    return [
-        "apple",
-        "sugar",
-        "flour",
-        "eggs"
-    ];
-}
-
-// when dataRetreaver runs, array ["apple", ...] will be output and saved in applepie.
-let applePie = dataRetreaver();
-
-// use placeholder pie as parameter for htmlCreator to create the logic for generating unordered list.
-function htmlCreator(pie) {
-    //console.log(pie);
-    let htmlContent;
-    let i = 0;
-    htmlContent = "<ul>";
-    while (i < pie.length) {
-        htmlContent += "<li>" + pie[i] + "</li>";
-        i++;
-    }
-    htmlContent += "</ul>";
-    return htmlContent;
-}
-
-// when htmlCreator runs, completed HTMl with data is output
-// and saved in variable applePieDone
-let applePieDone = htmlCreator(applePie);
-
-
-// the last function, printHtml does printing only
-function printHtml (stuffToPrint) {
-    console.log(stuffToPrint);
-}
-
-
-// function printHtml runs, and stuffToPrint is assigned with applePieDone
-printHtml(applePieDone);
-*/
-
-let serveCoffee = function() {
-    console.log('Serving coffee!')
-};
-
-serveCoffee();
-
-let robot = {
-    name: 'Atomu',
-    active: true,
-    color: 'silver',
-    limbs: 4,
-    serveCoffee: function() {
-        console.log('Serving coffee!');
-}
-};
-
-console.log(robot.name);
-robot.serveCoffee();
-
-// Homework
-// add the mods to robot above - positive/negative
-// Negative mods requires another method
+console.log(output2);
+console.log(output3);
+console.log(output4);
+// Task 2 End
